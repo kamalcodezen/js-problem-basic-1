@@ -52,3 +52,27 @@ for (let f = 1; f <= 50; f++) {
     }
 }
 console.log("Total number of divisible 5 :", f_count);
+
+// Count vowels in "hello"
+let str = "hello";
+let vowel = 0;
+for (let val of str) {
+    // console.log(val)
+    if (val === "a" || val === "e" || val === "i" || val === "o" || val === "u") {
+        console.log(val);
+        vowel++;
+    }
+}
+console.log("Total vowel is :", vowel);
+
+
+// Count spaces
+let fullName = " ka mal ud di ";
+let spaces = 0;
+for (let s of fullName) {
+    if (s === " ") {
+        spaces++;
+    }
+}
+console.log("Total spaces :", spaces);
+
