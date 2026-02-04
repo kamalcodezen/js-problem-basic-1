@@ -31,3 +31,21 @@ while (n >= 1) {
 }
 
 console.log(`-------------------`);
+
+
+// Print even 1–10
+for (let j = 1; j <= 10; j++) {
+    // console.log(j);
+    if (j % 2 === 0) {
+        console.log(j);
+    }
+}
+
+let j = 0;
+while (j <= 10) {
+    console.log(j)
+    j += 2;
+}
+
+
+console.log(`-------------------`);
