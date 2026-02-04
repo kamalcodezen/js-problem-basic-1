@@ -19,14 +19,17 @@ for (let j = 1; j <= 30; j++) {
 console.log("Total even number :", j_count);
 
 
+console.log(`------------------------`);
+
+
 // Count odd numbers
 let a_count = 0;
 let b = 1;
 while (b <= 46) {
-    b++;
     if (b % 2 !== 0) {
         a_count++;
     }
+    b++;
 }
 console.log("Total ODD number :", a_count);
 
@@ -37,11 +40,15 @@ console.log(`-----------------------`);
 // Count numbers > 10
 let n_count = 0;
 for (let n = 1; n <= 20; n++) {
-    if (n >= 10) {
+    if (n > 10) {
         n_count++;
     }
 }
 console.log("Total 10 of big number :", n_count);
+
+
+console.log(`------------------------`);
+
 
 
 // Count numbers divisible by 5
@@ -53,17 +60,24 @@ for (let f = 1; f <= 50; f++) {
 }
 console.log("Total number of divisible 5 :", f_count);
 
+
+console.log(`------------------------`);
+
+
+
 // Count vowels in "hello"
 let str = "hello";
-let vowel = 0;
+let vowels = 0;
 for (let val of str) {
     // console.log(val)
     if (val === "a" || val === "e" || val === "i" || val === "o" || val === "u") {
-        console.log(val);
-        vowel++;
+        vowels++;
     }
 }
-console.log("Total vowel is :", vowel);
+console.log("Total vowel is :", vowels);
+
+
+console.log(`------------------------`);
 
 
 // Count spaces
@@ -76,3 +90,17 @@ for (let s of fullName) {
 }
 console.log("Total spaces :", spaces);
 
+
+console.log(`------------------------`);
+
+
+// Count characters  (২০টা পর্যন্ত)
+let name = "kamaluddin apnacollege programming hero";
+let charCount = 0;
+for (let ch of name) {
+    if (charCount < 20) {
+        charCount++
+    }
+}
+
+console.log(charCount);
