@@ -32,3 +32,15 @@ console.log("Total ODD number :", a_count);
 
 
 console.log(`-----------------------`);
+
+
+// Count numbers > 10
+let n_count = 0;
+for (let n = 1; n <= 20; n++) {
+    if (n >= 10) {
+        n_count++;
+    }
+}
+console.log("Total 10 of big number :", n_count);
+
+
