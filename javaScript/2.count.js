@@ -1,0 +1,34 @@
+// Count numbers 1–10
+let count = 0;
+for (let i = 1; i <= 10; i++) {
+    count++;
+}
+console.log("Total number :", count);
+
+
+console.log(`---------------------`);
+
+
+// Count even numbers
+let j_count = 0;
+for (let j = 1; j <= 30; j++) {
+    if (j % 2 === 0) {
+        j_count++;
+    }
+}
+console.log("Total even number :", j_count);
+
+
+// Count odd numbers
+let a_count = 0;
+let b = 1;
+while (b <= 46) {
+    b++;
+    if (b % 2 !== 0) {
+        a_count++;
+    }
+}
+console.log("Total ODD number :", a_count);
+
+
+console.log(`-----------------------`);
