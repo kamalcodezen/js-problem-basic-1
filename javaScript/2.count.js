@@ -44,3 +44,11 @@ for (let n = 1; n <= 20; n++) {
 console.log("Total 10 of big number :", n_count);
 
 
+// Count numbers divisible by 5
+let f_count = 0;
+for (let f = 1; f <= 50; f++) {
+    if (f % 5 === 0) {
+        f_count++;
+    }
+}
+console.log("Total number of divisible 5 :", f_count);
