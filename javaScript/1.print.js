@@ -7,7 +7,7 @@ console.log(`-------------------`);
 
 
 // Print 1–10
-let i = 0;
+let i = 1;
 while (i <= 10) {
     console.log(i);
     i++;
@@ -15,7 +15,7 @@ while (i <= 10) {
 
 console.log(`-------------------`);
 
-// Print 5–1
+// Print 5–1 decrement
 for (let i = 5; i >= 1; i--) {
     console.log(i);
 }
@@ -44,7 +44,7 @@ for (let j = 1; j <= 10; j++) {
 console.log(`***************`);
 
 
-let j = 0;
+let j = 2;
 while (j <= 10) {
     console.log(j)
     j += 2;
@@ -63,8 +63,8 @@ for (let d = 1; d <= 20; d++) {
 
 
 console.log(`================`);
-// reverse way odd
 
+// reverse way odd
 let e = 20;
 while (e >= 1) {
     e--;
@@ -99,3 +99,17 @@ for (let m = 5; m <= 30; m += 5) {
 }
 
 console.log(`------------------`);
+
+
+// Print numbers > 10
+for (let k = 1; k <= 30; k++) {
+    if (k > 10) {
+        console.log(k)
+    }
+}
+
+// Print numbers < 50
+for (let n = 1; n <= 50; n++) {
+    console.log(n)
+
+}
