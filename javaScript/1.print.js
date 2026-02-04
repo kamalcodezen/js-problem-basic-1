@@ -74,3 +74,28 @@ while (e >= 1) {
 }
 
 console.log(`--------------------`);
+
+
+// Print multiples of 3
+for (let m = 3; m <= 50; m += 3) {
+    console.log(m)
+}
+
+
+let c = 3;
+while (c <= 30) {
+    c++;
+    if (c % 3 == 0) {
+        console.log(c);
+    }
+}
+console.log(`---------------------`);
+
+
+
+// Print multiples of 5
+for (let m = 5; m <= 30; m += 5) {
+    console.log(m)
+}
+
+console.log(`------------------`);
