@@ -41,6 +41,9 @@ for (let j = 1; j <= 10; j++) {
     }
 }
 
+console.log(`***************`);
+
+
 let j = 0;
 while (j <= 10) {
     console.log(j)
@@ -49,3 +52,25 @@ while (j <= 10) {
 
 
 console.log(`-------------------`);
+
+
+// Print odd 1–20
+for (let d = 1; d <= 20; d++) {
+    if (d % 2 !== 0) {
+        console.log(d);
+    }
+}
+
+
+console.log(`================`);
+// reverse way odd
+
+let e = 20;
+while (e >= 1) {
+    e--;
+    if (e % 2 !== 0) {
+        console.log(e)
+    }
+}
+
+console.log(`--------------------`);
